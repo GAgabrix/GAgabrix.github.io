@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.8;
+    background-color: rgb(255, 255, 255);
+    color: rgb(94, 33, 33);
+}
+
+header {
+    background-color: rgb(243, 220, 194);
+    color: rgb(88, 21, 21);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgb(88, 53, 28);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: rgb(232, 235, 235);
+}
+
+.section {
+    padding: 20px;
+    background-color: rgb(231, 195, 210);
+    margin: 20px 0;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: brown;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid brown;
+}
+
+form button {
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: chocolate;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

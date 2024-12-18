@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(211, 190, 162);
+    color: rgb(107, 65, 65);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(2, 19, 13);
+    font-family: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: rgb(228, 187, 212);
+}
+
+.catalogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.catalogo {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 20px;
+    box-sizing: border-box;
+}
+
+.catalogo img {
+   max-width: 100%;
+   height: auto;
+}
+
+footer {
+    background-color: burlywood;
+    color: rgb(32, 12, 6);
+    text-align: center;
+    padding-left: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
